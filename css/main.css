@@ -1,0 +1,83 @@
+
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: .5s;
+    margin: auto;
+}
+
+.board {
+    width: 40px;
+    height:40px;
+    text-align: center;
+    font-size:1.4em; 
+}
+
+body {
+    background-color: rgb(211, 194, 194);
+    color:white;
+    text-align: center;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .game-board td {
+    width: 40px;
+    height:40px;
+    text-align: center;
+    font-size:1.4em;
+    
+}
+
+
+  
+  /* .modal {
+    background-color: red;
+    font-size-adjust: initial;
+    font-style: italic;
+    position: absolute;
+    top:10px;
+    right: 300px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 50px;
+    border-color: blanchedalmond;
+    width: 80px;
+  }
+  
+  .modal button {
+    float: right;
+    color: red;
+    background-color: white;
+    font-style: italic;
+    font-weight: bolder;
+    border-radius: 50px;
+    padding: 15px;
+  }
+  
+  .victory-modal {
+    background-color: red;
+    font-size-adjust: initial;
+    font-style: italic;
+    position: absolute;
+    top:10px;
+    left: 10px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 50px;
+    border-color: blanchedalmond;
+    width: 80px;
+  }
+   */
+  /* .formLine {
+    margin:10px;
+    padding:10px;
+    background-color: cornflowerblue;
+  } */
