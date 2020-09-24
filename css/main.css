@@ -1,24 +1,32 @@
 
-
-.board td {
+/* .board td {
     width: 30px;
     height: 30px;
     text-align: center;
     transition: .5s;
     margin: auto;
-}
+    margin-right: auto;
+    margin-left: auto;
+} */
 
-.board {
+/* .board td:hover {
+  background-color: lightsalmon;
+} */
+
+/* .board {
     width: 40px;
     height:40px;
     text-align: center;
     font-size:1.4em; 
-}
+    margin: auto
+} */
 
 body {
-    background-color: rgb(211, 194, 194);
+    background-color: lightpink;
     color:white;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
   }
   
   .cell {
@@ -26,32 +34,54 @@ body {
     height: 40px;
     text-align: center;
     font-size: 1.5em;
-  }
+    margin-right: auto;
+    margin-left: auto;
+    background-color: thistle;
 
-  .game-board td {
+  }
+ 
+  table {
+    margin: 0 auto
+}
+
+
+  /* .game-board td {
     width: 40px;
     height:40px;
     text-align: center;
     font-size:1.4em;
+    margin-right: auto;
+    margin-left: auto;
     
+} */
+
+.hidden span{
+  display: none
 }
 
 
-  
-  /* .modal {
-    background-color: red;
-    font-size-adjust: initial;
-    font-style: italic;
-    position: absolute;
-    top:10px;
-    right: 300px;
-    padding: 20px;
-    margin: auto;
-    border-radius: 50px;
-    border-color: blanchedalmond;
-    width: 80px;
-  }
-  
+.modal {
+  color: darkviolet;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+.difficulty button {
+  color:white;
+  background-color: thistle;
+  margin: 0 auto;
+  text-decoration-color: turquoise;
+}
+
+.difficulty {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+
+/*   
   .modal button {
     float: right;
     color: red;
@@ -74,8 +104,8 @@ body {
     border-radius: 50px;
     border-color: blanchedalmond;
     width: 80px;
-  }
-   */
+  } */
+   /* */ 
   /* .formLine {
     margin:10px;
     padding:10px;

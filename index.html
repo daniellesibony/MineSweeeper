@@ -10,8 +10,18 @@
 </head>
 
 <body onload="init()">
-    <h1>MINE SWEEPER</h1>
+    <h1>💣💣💣MINE SWEEPER💣💣💣</h1>
     <button onclick="toggleGame(this)">🤓</button>
+    <div class="difficulty">
+        <button onclick="changeDifficulty(16)">Easy</button>
+        <button onclick="changeDifficulty(25)">Normal</button>
+        <button onclick="changeDifficulty(36)">World Class</button>
+    </div>
+
+    <div class="modal">
+        <h3 class="time"></h3>
+    </div>
+
     <table border="1" cellpadding="10">
         <tbody class="board">
         </tbody>
