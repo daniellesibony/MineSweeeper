@@ -2,6 +2,7 @@
 
 const MINE = '💣'
 const EMPTY_CELL = " "
+const FLAG = '🚩'
 var gIntervalId;
 var gStartTime;
 

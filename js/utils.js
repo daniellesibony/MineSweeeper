@@ -13,7 +13,7 @@ function renderBoard(board) {
                             data-i="${i}" 
                             data-j="${j}" 
                             class="${className} ${hiddenClass}">`;
-            if (cell.isMarked) strHtml += `<img class="flag" src="../asset/images/flag.png" />`;                
+            if (cell.isMarked) strHtml += `${FLAG}`           
             strHtml += `<span>${mineInCell}</span>`;
             strHtml += '</td>';
 
