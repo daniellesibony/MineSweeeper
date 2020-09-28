@@ -13,7 +13,7 @@ function renderBoard(board) {
                             data-i="${i}" 
                             data-j="${j}" 
                             class="${className} ${hiddenClass}">`;
-            if (cell.showFlag) strHtml += `<img class="flag" src="../asset/images/flag.png" />`;                
+            if (cell.isMarked) strHtml += `<img class="flag" src="../asset/images/flag.png" />`;                
             strHtml += `<span>${mineInCell}</span>`;
             strHtml += '</td>';
 
@@ -27,24 +27,6 @@ function renderBoard(board) {
 }
 
 
-
-// var timer = setInterval(function() {
-//     var now = new Date().getTime();
-//     var distance = now - countDownDate.getTime();
-//     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-//     document.querySelector('.modal').innerHTML = seconds;
-// }, 1000);
-
-
-function renderCell(location, value) {
-    // Select the elCell and set the value
-    var elCell = document.querySelector(`.cell${location.i}-${location.j}`);
-    elCell.innerHTML = value;
-}
-
-// function getRandomIntInclusive(min, max) {
-//     return Math.floor(Math.random() * (max - min + 1)) + min;
-// }
 
 
 function getRandomInt(min, max) {
