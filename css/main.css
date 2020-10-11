@@ -1,35 +1,34 @@
+/* 1. Colors, cursor, sizing (px, em, rem, max-width, min- height), borders, background-image
+2. Box-sizing, inline-blocks, list-style
+3. Border-radius, box-shadow, text-shadow
+4. :hover, :focus, :active
+5. :nth-child */
 
-/* .board td {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    transition: .5s;
-    margin: auto;
-    margin-right: auto;
-    margin-left: auto;
-} */
-
-/* .board td:hover {
-  background-color: lightsalmon;
-} */
-
-/* .board {
-    width: 40px;
-    height:40px;
-    text-align: center;
-    font-size:1.4em; 
-    margin: auto
-} */
+html {
+    /* cursor: url(..//asset/images/Cursor_Cellphone.png); */
+    cursor: url(../asset/images/Cursor_Cellphone.png), auto;
+}
 
 body {
     background-color: lightpink;
-    color:white;
+    background-image: url(../asset/images/pexels-photo-2942855.jpeg);
+    color: white;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-  }
-  
-  .cell {
+    cursor: url("Cursor_Cellphone.png"), auto;
+}
+
+table {
+    margin: 0 auto
+}
+
+.board td:hover {
+    background-color: lightsalmon;
+    /* cursor: url('/images/droplet.svg'); */
+}
+
+.cell {
     width: 40px;
     height: 40px;
     text-align: center;
@@ -37,77 +36,70 @@ body {
     margin-right: auto;
     margin-left: auto;
     background-color: thistle;
-
-  }
- 
-  table {
-    margin: 0 auto
 }
 
-
-  /* .game-board td {
-    width: 40px;
-    height:40px;
-    text-align: center;
-    font-size:1.4em;
-    margin-right: auto;
-    margin-left: auto;
-    
-} */
-
-.hidden span{
-  display: none
+.flag {
+    width: 20px;
+    height: 20px;
 }
 
-
-.modal {
-  color: darkviolet;
-  padding-bottom: 20px;
-  text-align: center;
-
+.hidden span {
+    display: none
 }
 
 .difficulty button {
-  color:white;
-  background-color: thistle;
-  margin: 0 auto;
-  text-decoration-color: turquoise;
+    color: white;
+    background-color: thistle;
+    border-radius: 50px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    text-decoration-color: turquoise;
 }
 
-.difficulty {
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-
-
-/*   
-  .modal button {
-    float: right;
-    color: red;
+.modal button {
+    float: middle;
+    color: pink;
     background-color: white;
+    /* font-style: italic; */
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 100px;
+    /* padding: 15px; */
+    margin: 0 auto;
+}
+
+.victory-modal button {
+    float: middle;
+    color: pink;
+    background-color: white;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 100px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.formLine {
+    margin: 10px;
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+
+.time-modal {
+    /* float: middle;
+    color: pink;
+    background-color: white;
+    /* font-style: italic; */
+    /* font-weight: bolder; */
+    /* font-size: larger; */
+    /* border-radius: 50px; */
+    /* padding: 15px; */
+    display: 'hidden';
+    float: middle;
+    color: white;
+    /* background-color: white; */
     font-style: italic;
     font-weight: bolder;
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 15px;
-  }
-  
-  .victory-modal {
-    background-color: red;
-    font-size-adjust: initial;
-    font-style: italic;
-    position: absolute;
-    top:10px;
-    left: 10px;
-    padding: 20px;
-    margin: auto;
-    border-radius: 50px;
-    border-color: blanchedalmond;
-    width: 80px;
-  } */
-   /* */ 
-  /* .formLine {
-    margin:10px;
-    padding:10px;
-    background-color: cornflowerblue;
-  } */
+}
